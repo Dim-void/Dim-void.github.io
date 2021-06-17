@@ -1,0 +1,131 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+/* 背景图片 */
+#intro {
+    background: url("../img/myimage/background.png")no-repeat center center fixed;
+    -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+    -moz-background-size: cover;    /* 针对Firefox浏览器 */
+    -o-background-size: cover;      /* 针对Operallq */
+    background-size: cover;         /* 通用 */
+}
+#introhome{
+    background: url("../img/cimage/test.jpg")no-repeat center center fixed;
+      -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+      -moz-background-size: cover;    /* 针对Firefox浏览器 */
+      -o-background-size: cover;      /* 针对Operallq */
+      background-size: cover;         /* 通用 */
+}
+/* 背景图片 */
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color:  rgba(0,0,0,0.7) !important;
+}
+
+
+/* 渐变色 */
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: rgba(0,0,0,0.7) !important;
+  }
+} 
+
+.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+}
+.rgba-gradient1 {
+    /* fallback for old browsers */
+    background: rgba(35, 7, 77, 0.6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(204, 83, 51, 0.6), rgba(35, 7, 77, 0.6));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(204, 83, 51, 0.6), rgba(35, 7, 77, 0.6));
+}
+.streak.streak-photo {
+    background-attachment: fixed;
+  }
+.top-nav-collapse, .page-footer {
+    background-color: rgba(0,0,0,0.7) !important;
+}
+/* 渐变色 */
+
+/* 悬浮窗口 */
+#previous-step, #next-step, #done {
+  border-radius: 4px;
+  font-family: 'Google Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .6px;
+  line-height: 24px;
+  padding-bottom: 6px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 6px;
+  pointer-events: initial;
+  text-transform: none;
+  background: #FFFFFF;
+  color: #1A73E8;
+  transform: scale(1, 1);
+  transition: transform 300ms ease-in-out;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+#next-step {
+  color: #fff;
+  background: #1A73E8;
+}
+.spacer {
+  flex-grow: 100%;
+}
+/* 悬浮窗口 */
+
+/* 滚动窗口 */
+body,html{
+  scroll-behavior: smooth;
+}
+nav {
+  width: 790px;
+  padding: 5px;
+  /* border: 1px solid black; */
+}
+a{
+  font-size: 2em;
+  text-decoration: none;
+}
+.box {
+  width: 800px;
+}
+.box div {
+  height: 500px;
+  border: 1px solid #000000;
+  font-size: 5em;
+}
+/* 滚动窗口 */
+
+/* 固定button */
+.r{position:fixed; bottom:10%;}
+/* 固定button */
+.navbar-brand-s{display:inline-block;padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:2.0rem;line-height:inherit;white-space:nowrap;color: #fff;}
